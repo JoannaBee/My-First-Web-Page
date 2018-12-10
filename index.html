@@ -5,6 +5,7 @@
     <meta name="Testing" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My first Html</title>
+
 </head>
 <body>
 
@@ -49,6 +50,7 @@
         <li>Garden</li>
     </ol>
     <div>
+        <p id='test'>Hello</p>
         <label for="email"><b>Email</b></label>
         <input type="text" placeholder="Enter Email" name="email" required>
         <br>
@@ -58,16 +60,22 @@
         <input type="text" placeholder="Enter Name" name='name' required>
         <br>
         <br>
-        <div id="test">
-        <button type='button' onclick=myFunction>Send</button>
-        </div>
-        <script>
-        function myFunction () {
-            document.getElementById('test').innerHTML='test100';}
-            </script>
+        <button type='button' onclick=myFunction()>Send</button>
+        
         
     </div>
 
 </div>
+
+
+
+
+<script type="text/javascript">
+    function myFunction () {
+        document.getElementById('test').innerHTML='test100';}
+        </script>
+
+
+
 </body>
 </html>
