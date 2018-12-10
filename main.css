@@ -1,22 +1,51 @@
 body {
-    background-color: green;
+    background-color: grey;
 }
 h1 {
     color: white;
-    margin-left: 20px;
+    text-align: center
 }
 h2 {
     color: whitesmoke;
-    margin-left: 20px;
+    text-align: center
+}
+h3 {
+    text-align: center
 }
 p {
     color: whitesmoke;
-    margin-left: 20px;
+    text-align: center
 }
 .headings {
     font-weight: bold;
     color: red;
 }
 #title {
-    size: 50%
+    font-size: 500%;
+}
+img {
+    border-image: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 15px;
+    box-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0 4px 8px 0 darkslategrey, 0 6px 20px 0 darkslategrey
+}
+a:link {
+    color: yellow;
+    text-decoration: none
+}
+a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+    background-color: transparent;
+}
+#ble {
+    font-size: 50px;
+}
+.layout {
+    list-style-position: inside;
+    text-align: center;
 }
